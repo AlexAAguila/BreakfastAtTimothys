@@ -30,6 +30,7 @@ if (existingProduct) {
 
   return (
     <>
+    <img src="./src/assets/bfast-timmays.png" alt="" width="400" />
  <h1>{breakfast.title}</h1>
 <form onSubmit={addToCart}>
 <label htmlFor="products">Products:</label>
